@@ -1,0 +1,127 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Icons Sharp';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialiconssharp/v105/oPWQ_lt5nv4pWNJpghLP75WiFR4kLh3kvmvR.woff2) format('woff2');
+  }
+  
+  .material-icons-sharp {
+    font-family: 'Material Icons Sharp';
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    /* -webkit-font-feature-settings: 'liga'; */
+    -webkit-font-smoothing: antialiased;
+      
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  html{
+    font-size: 20px;
+    font-family: Calibri, Helvetica, sans-serif,Monospace; 
+
+  }
+Body {  
+     
+    background-image: url(../Image/background.jpg);  
+    background-size: cover;
+  }  
+.container { 
+     width: 360px;
+     height: 460px;
+     align-items: center;
+     margin-top: 7rem;
+     margin-left: 39%;
+     margin-right: 50%;
+     position: relative;
+     transform: translate(-50% -50%);
+     box-sizing: border-box;
+     background-color: rgba(231, 228, 235, 0.829);
+     padding: 1rem;
+     border-radius: 2rem;
+   }
+   img{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: calc(50% - 2rem); 
+    top: -2.5rem;
+   }
+   h1{
+       margin-top: 0.2rem;
+       padding: 0 0 20px;
+       text-align: center;
+       font-size: 26px;
+   }
+   p{
+       margin: 0;
+       padding: 0;
+       font-weight: bold;
+   }
+   input[type="text"],input[type="password"]{
+       border: none;
+       border-bottom: 1px solid #fff;
+       background: transparent; 
+       outline: none;
+       height: 40px;
+       color: #fff;
+       font-weight: bold;
+       width: 15rem;
+       margin-bottom: 1rem;
+       border-radius: 20px;
+    }
+    
+    input[type="submit"]{
+        width: 6rem;
+        height: 1.8rem;
+        border: none;
+        background: transparent;
+        border-radius: 1rem;
+        background-color: rgba(106, 106, 201, 0.815);
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        font-weight: bold;
+        margin-top: 0.5rem;
+      
+    }
+    input[type="submit"]:hover{
+        cursor: pointer;
+        background: #ffc1078e;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 20px;
+        color: rgba(17, 49, 233, 0.781);
+    }
+    .frget{
+        display: flex;
+        margin-top: 0.rem;
+    }
+    a:hover{
+        color: #ffc1078e;
+    }
+    #confrimPassword{
+        margin-bottom: 0;
+    }
+    #mismatch{
+        color: red;
+        font-size: 16px;
+    }
+@media screen and (max-width:1200px) {
+    body{
+        background-size: cover;
+        background-color: red;
+    }
+}
