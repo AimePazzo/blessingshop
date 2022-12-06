@@ -64,7 +64,7 @@ body{
     font-size:14px;
     background-color: var(--color-background);
     user-select: none;
-    overflow: hidden;
+    overflow:scroll;
     color: var(--color-dark);
 }
 
